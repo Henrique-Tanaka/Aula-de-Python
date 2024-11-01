@@ -1,13 +1,8 @@
 nome = 'Henrique Tanaka'
 altura = 1.65
 peso = 53
-imc = peso / altura ** 2
+imc = peso / (altura ** 2)
 
-"f-strings"
-linha_1 = f'{nome} tem {altura:.2f} de altura,'
-linha_2 = f'pesa {peso} quilos e seu imc é'
-linha_3 = f'{imc:.2f}'
-
-print(linha_1)
-print(linha_2)
-print(linha_3)
+print('O nome dele é',nome+', ele mede',altura,'de altura.')
+print(nome, 'pesa', peso, 'e o imc dele é: ')
+print(imc)
