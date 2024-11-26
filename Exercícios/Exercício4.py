@@ -27,7 +27,7 @@ if nome and idade:
     print(f'A primeira letra do seu nome é {nome[0]}')
     print(f'A última letra do seu nome é {nome[-1]}')
     if int(idade) >= 18:
-        print('Você é maior de idade.')
+        print('Você é maior de idade')
     else:
         print('Você é menor de idade')
 else:
